@@ -53,6 +53,6 @@ deploy:
     - internal/docker-push:        
         username: $USERNAME
         password: $PASSWORD
-        repository: dotnetcoreservices/locationreporter
+        repository: yunusemregacti/eventsourcing-locationreporter
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/output/app/docker_entrypoint.sh"
